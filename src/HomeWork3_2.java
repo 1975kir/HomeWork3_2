@@ -35,15 +35,14 @@ public class HomeWork3_2 {
 
         for (int i = 0; i < Workers.length; i++) {
             if (Workers[i].age > 40) {
-                System.out.println(i);
-  //              Workers[i].Info();
+               Workers[i].info();
             }
 
         }
 
 
-        }
-
-
     }
+
+
+}
 

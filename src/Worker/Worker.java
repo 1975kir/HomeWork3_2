@@ -7,4 +7,8 @@ public class Worker {
     public String phone;
     public String salary;
     public int age;
+
+    public void info() {
+        System.out.println("ФИО: " + fullname + "Должность: " + post + "Возраст: " + age + "Почта: " + email + "Телефон: " + phone + "Зарплата: " + salary);
+    }
 }
