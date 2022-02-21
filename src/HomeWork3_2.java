@@ -10,7 +10,7 @@ public class HomeWork3_2 {
         Wkr1.email = "Ivan@mail.ru";
         Wkr1.phone = "666555";
         Wkr1.salary = "50000";
-        Wkr1.age = "60";
+        Wkr1.age = Integer.parseInt("60");
 
         Worker Wkr2 = new Worker();
         Wkr1.fullname = "Дмитрий Захарович Сидоров";
@@ -18,7 +18,7 @@ public class HomeWork3_2 {
         Wkr1.email = "Dima@mail.ru";
         Wkr1.phone = "777888";
         Wkr1.salary = "55000";
-        Wkr1.age = "50";
+        Wkr1.age = Integer.parseInt("50");
 
         Worker Wkr3 = new Worker();
         Wkr1.fullname = "Виталий Иванович Петров";
@@ -26,7 +26,7 @@ public class HomeWork3_2 {
         Wkr1.email = "Vital@mail.ru";
         Wkr1.phone = "888999";
         Wkr1.salary = "60000";
-        Wkr1.age = "30";
+        Wkr1.age = Integer.parseInt("30");
 
         Worker[] Workers = new Worker[3];
         Workers[0] = Wkr1;
@@ -35,7 +35,8 @@ public class HomeWork3_2 {
 
         for (int i = 0; i < Workers.length; i++) {
             if (Workers[i].age > 40) {
-                Workers[i].WkrInfo();
+                System.out.println(i);
+  //              Workers[i].Info();
             }
 
         }
